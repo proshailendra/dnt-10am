@@ -19,6 +19,6 @@ app.use("/", webRoutes);
 app.use("/api", apiRoutes);
 
 //running server
-var port = process.env.port || 1300;
+var port = process.env.PORT || 1300;
 app.listen(port);
 console.log("Server is running at http://localhost:" + port);

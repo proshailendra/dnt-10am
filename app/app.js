@@ -20,5 +20,5 @@ angular
                 controller: "userController"
             });
     }).constant("globalConfig", {
-        apiAddress: "https://node-10am.herokuapp.com/api"
+        apiAddress: "https://nodetest10am.herokuapp.com/api"
     });
