@@ -1,6 +1,6 @@
 angular
     .module("app", ["ui.router"])
-    .config(function ($stateProvider, $urlRouterProvider) {
+    .config(function($stateProvider, $urlRouterProvider) {
 
         $urlRouterProvider.otherwise("/");
         $stateProvider
@@ -20,5 +20,5 @@ angular
                 controller: "userController"
             });
     }).constant("globalConfig", {
-    apiAddress: "http://localhost:1300/api"
-});
+        apiAddress: "https://node-10am.herokuapp.com/api"
+    });
